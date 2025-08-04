@@ -1,6 +1,7 @@
  .card{
-    width: 18rem;
-    height: 9rem;
+    width: 90%;
+    max-width: 290px;
+    height: 155px;
     /* background-color:rgb(238, 238, 183); */
     background:linear-gradient(to bottom, #86b9e6, #e668c0);
     position: relative;
@@ -11,6 +12,7 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 10px #e046aa;
+    flex-shrink:0;
  }
  .card:hover{
    box-shadow: 2px 2px 10px #b3639b;
