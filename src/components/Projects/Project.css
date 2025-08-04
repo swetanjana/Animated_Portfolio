@@ -10,10 +10,18 @@
 .slider{
     width: 90%;
     height: 300px;
-    background-color: white;
     display: flex;
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     gap: 30px;
+    scrollbar-width: none; 
+    padding: 20px;
+}
+#para{
+    font-size: 4vmax;
+     background: linear-gradient(to right, #DE5D83, #8B5E83);
+     background-clip: text;
+    color:transparent;
+    align-items: center ;
 }
